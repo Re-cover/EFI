@@ -270,20 +270,22 @@
 			</dict>
 			<dict>
 				<key>Comment</key>
-				<string>Change 15 port limit to 24 in XHCI kext 10.13</string>
+				<string>USB Port 15 to 26</string>
 				<key>Disabled</key>
-				<true/>
+				<false/>
 				<key>Find</key>
 				<data>
-				g32MEA==
+				g32IDw+DpwQ=
 				</data>
 				<key>InfoPlistPatch</key>
 				<false/>
+				<key>MatchOS</key>
+				<string>10.13.6</string>
 				<key>Name</key>
-				<string>AppleUSBXHCIPCI</string>
+				<string>com.apple.driver.usb.AppleUSBXHCI</string>
 				<key>Replace</key>
 				<data>
-				g32MGw==
+				g32IGg+DpwQ=
 				</data>
 			</dict>
 		</array>
