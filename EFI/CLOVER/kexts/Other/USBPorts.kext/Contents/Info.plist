@@ -22,230 +22,872 @@
 	<string>1.0</string>
 	<key>IOKitPersonalities</key>
 	<dict>
-		<key>iMac18,3-PXSX</key>
+		<key>iMac19,1-XHC</key>
 		<dict>
 			<key>CFBundleIdentifier</key>
-			<string>com.apple.driver.AppleUSBHostMergeProperties</string>
+			<string>com.apple.driver.AppleUSBMergeNub</string>
 			<key>IOClass</key>
-			<string>AppleUSBHostMergeProperties</string>
-			<key>IONameMatch</key>
-			<string>PXSX</string>
-			<key>IOProviderClass</key>
-			<string>AppleUSBEHCIPCI</string>
-			<key>IOProviderMergeProperties</key>
-			<dict>
-				<key>port-count</key>
-				<data>
-				BAAAAA==
-				</data>
-				<key>ports</key>
-				<dict>
-					<key>PRT1</key>
-					<dict>
-						<key>UsbConnector</key>
-						<integer>3</integer>
-						<key>port</key>
-						<data>
-						AQAAAA==
-						</data>
-					</dict>
-					<key>PRT2</key>
-					<dict>
-						<key>UsbConnector</key>
-						<integer>3</integer>
-						<key>port</key>
-						<data>
-						AgAAAA==
-						</data>
-					</dict>
-					<key>PRT3</key>
-					<dict>
-						<key>UsbConnector</key>
-						<integer>3</integer>
-						<key>port</key>
-						<data>
-						AwAAAA==
-						</data>
-					</dict>
-					<key>PRT4</key>
-					<dict>
-						<key>UsbConnector</key>
-						<integer>3</integer>
-						<key>port</key>
-						<data>
-						BAAAAA==
-						</data>
-					</dict>
-				</dict>
-			</dict>
-			<key>model</key>
-			<string>iMac18,3</string>
-		</dict>
-		<key>iMac18,3-XHC</key>
-		<dict>
-			<key>CFBundleIdentifier</key>
-			<string>com.apple.driver.AppleUSBHostMergeProperties</string>
-			<key>IOClass</key>
-			<string>AppleUSBHostMergeProperties</string>
+			<string>AppleUSBMergeNub</string>
 			<key>IONameMatch</key>
 			<string>XHC</string>
+			<key>IOProbeScore</key>
+			<integer>5000</integer>
 			<key>IOProviderClass</key>
 			<string>AppleUSBXHCIPCI</string>
 			<key>IOProviderMergeProperties</key>
 			<dict>
-				<key>kUSBSleepPortCurrentLimit</key>
-				<integer>1000</integer>
-				<key>kUSBSleepPowerSupply</key>
-				<integer>3000</integer>
-				<key>kUSBWakePortCurrentLimit</key>
-				<integer>1500</integer>
-				<key>kUSBWakePowerSupply</key>
-				<integer>3200</integer>
 				<key>port-count</key>
 				<data>
-				FQAAAA==
+				FgAAAA==
 				</data>
 				<key>ports</key>
 				<dict>
-					<key>HS01</key>
-					<dict>
-						<key>UsbConnector</key>
-						<integer>0</integer>
-						<key>port</key>
-						<data>
-						AQAAAA==
-						</data>
-					</dict>
 					<key>HS02</key>
 					<dict>
+						<key>IOGeneralInterest</key>
+						<string>IOCommand is not serializable</string>
+						<key>IOPowerManagement</key>
+						<dict>
+							<key>CapabilityFlags</key>
+							<integer>65536</integer>
+							<key>CurrentPowerState</key>
+							<integer>2</integer>
+							<key>DevicePowerState</key>
+							<integer>2</integer>
+							<key>DriverPowerState</key>
+							<integer>0</integer>
+							<key>MaxPowerState</key>
+							<integer>3</integer>
+						</dict>
 						<key>UsbConnector</key>
+						<integer>0</integer>
+						<key>device-properties</key>
+						<dict>
+							<key>acpi-device</key>
+							<string>IOACPIPlatformDevice is not serializable</string>
+							<key>acpi-path</key>
+							<string>IOACPIPlane:/_SB/PCI0@0/XHC@140000/RHUB@0/HS02@2</string>
+						</dict>
+						<key>kUSBHostPortPropertyOffset</key>
 						<integer>0</integer>
 						<key>port</key>
 						<data>
 						AgAAAA==
 						</data>
+						<key>port-statistics</key>
+						<dict>
+							<key>kPortStatAddressFailureCount</key>
+							<integer>0</integer>
+							<key>kPortStatConnectCount</key>
+							<integer>0</integer>
+							<key>kPortStatEOF2ViolationCount</key>
+							<integer>0</integer>
+							<key>kPortStatEOF2ViolationCurrentConnectCount</key>
+							<integer>0</integer>
+							<key>kPortStatEOF2ViolationDuringResetCount</key>
+							<integer>0</integer>
+							<key>kPortStatEOF2ViolationDuringResumeCount</key>
+							<integer>0</integer>
+							<key>kPortStatEOF2ViolationRecoveryDuringResetCount</key>
+							<integer>0</integer>
+							<key>kPortStatEnumerationFailureCount</key>
+							<integer>0</integer>
+							<key>kPortStatOverCurrentCount</key>
+							<integer>0</integer>
+							<key>kPortStatPowerStateTime</key>
+							<dict>
+								<key>kPowerStateOff</key>
+								<string>0ms (0%)</string>
+								<key>kPowerStateOn</key>
+								<string>267ms (0%)</string>
+								<key>kPowerStateSleep</key>
+								<string>0ms (0%)</string>
+								<key>kPowerStateSuspended</key>
+								<string>1469787ms (99%)</string>
+							</dict>
+							<key>kPortStatRemoteWakeCount</key>
+							<integer>0</integer>
+						</dict>
+						<key>port-status</key>
+						<integer>2</integer>
 					</dict>
 					<key>HS03</key>
 					<dict>
+						<key>IOGeneralInterest</key>
+						<string>IOCommand is not serializable</string>
+						<key>IOPowerManagement</key>
+						<dict>
+							<key>CapabilityFlags</key>
+							<integer>32768</integer>
+							<key>ChildrenPowerState</key>
+							<integer>3</integer>
+							<key>CurrentPowerState</key>
+							<integer>3</integer>
+							<key>DevicePowerState</key>
+							<integer>2</integer>
+							<key>DriverPowerState</key>
+							<integer>0</integer>
+							<key>MaxPowerState</key>
+							<integer>3</integer>
+						</dict>
 						<key>UsbConnector</key>
+						<integer>3</integer>
+						<key>device-properties</key>
+						<dict>
+							<key>acpi-device</key>
+							<string>IOACPIPlatformDevice is not serializable</string>
+							<key>acpi-path</key>
+							<string>IOACPIPlane:/_SB/PCI0@0/XHC@140000/RHUB@0/HS03@3</string>
+						</dict>
+						<key>kUSBHostPortPropertyOffset</key>
 						<integer>0</integer>
 						<key>port</key>
 						<data>
 						AwAAAA==
 						</data>
+						<key>port-statistics</key>
+						<dict>
+							<key>kPortStatAddressFailureCount</key>
+							<integer>0</integer>
+							<key>kPortStatConnectCount</key>
+							<integer>5</integer>
+							<key>kPortStatEOF2ViolationCount</key>
+							<integer>0</integer>
+							<key>kPortStatEOF2ViolationCurrentConnectCount</key>
+							<integer>0</integer>
+							<key>kPortStatEOF2ViolationDuringResetCount</key>
+							<integer>0</integer>
+							<key>kPortStatEOF2ViolationDuringResumeCount</key>
+							<integer>0</integer>
+							<key>kPortStatEOF2ViolationRecoveryDuringResetCount</key>
+							<integer>0</integer>
+							<key>kPortStatEnumerationFailureCount</key>
+							<integer>0</integer>
+							<key>kPortStatOverCurrentCount</key>
+							<integer>0</integer>
+							<key>kPortStatPowerStateTime</key>
+							<dict>
+								<key>kPowerStateOff</key>
+								<string>0ms (0%)</string>
+								<key>kPowerStateOn</key>
+								<string>1436623ms (97%)</string>
+								<key>kPowerStateSleep</key>
+								<string>0ms (0%)</string>
+								<key>kPowerStateSuspended</key>
+								<string>33428ms (2%)</string>
+							</dict>
+							<key>kPortStatRemoteWakeCount</key>
+							<integer>0</integer>
+						</dict>
+						<key>port-status</key>
+						<integer>4354</integer>
 					</dict>
 					<key>HS04</key>
 					<dict>
+						<key>IOGeneralInterest</key>
+						<string>IOCommand is not serializable</string>
+						<key>IOPowerManagement</key>
+						<dict>
+							<key>CapabilityFlags</key>
+							<integer>32768</integer>
+							<key>ChildrenPowerState</key>
+							<integer>3</integer>
+							<key>CurrentPowerState</key>
+							<integer>3</integer>
+							<key>DevicePowerState</key>
+							<integer>2</integer>
+							<key>DriverPowerState</key>
+							<integer>0</integer>
+							<key>MaxPowerState</key>
+							<integer>3</integer>
+						</dict>
 						<key>UsbConnector</key>
+						<integer>3</integer>
+						<key>device-properties</key>
+						<dict>
+							<key>acpi-device</key>
+							<string>IOACPIPlatformDevice is not serializable</string>
+							<key>acpi-path</key>
+							<string>IOACPIPlane:/_SB/PCI0@0/XHC@140000/RHUB@0/HS04@4</string>
+						</dict>
+						<key>kUSBHostPortPropertyOffset</key>
 						<integer>0</integer>
 						<key>port</key>
 						<data>
 						BAAAAA==
 						</data>
+						<key>port-statistics</key>
+						<dict>
+							<key>kPortStatAddressFailureCount</key>
+							<integer>0</integer>
+							<key>kPortStatConnectCount</key>
+							<integer>2</integer>
+							<key>kPortStatEOF2ViolationCount</key>
+							<integer>0</integer>
+							<key>kPortStatEOF2ViolationCurrentConnectCount</key>
+							<integer>0</integer>
+							<key>kPortStatEOF2ViolationDuringResetCount</key>
+							<integer>0</integer>
+							<key>kPortStatEOF2ViolationDuringResumeCount</key>
+							<integer>0</integer>
+							<key>kPortStatEOF2ViolationRecoveryDuringResetCount</key>
+							<integer>0</integer>
+							<key>kPortStatEnumerationFailureCount</key>
+							<integer>0</integer>
+							<key>kPortStatOverCurrentCount</key>
+							<integer>0</integer>
+							<key>kPortStatPowerStateTime</key>
+							<dict>
+								<key>kPowerStateOff</key>
+								<string>0ms (0%)</string>
+								<key>kPowerStateOn</key>
+								<string>1405821ms (95%)</string>
+								<key>kPowerStateSleep</key>
+								<string>0ms (0%)</string>
+								<key>kPowerStateSuspended</key>
+								<string>64233ms (4%)</string>
+							</dict>
+							<key>kPortStatRemoteWakeCount</key>
+							<integer>0</integer>
+						</dict>
+						<key>port-status</key>
+						<integer>4610</integer>
 					</dict>
 					<key>HS05</key>
 					<dict>
+						<key>IOGeneralInterest</key>
+						<string>IOCommand is not serializable</string>
+						<key>IOPowerManagement</key>
+						<dict>
+							<key>CapabilityFlags</key>
+							<integer>65536</integer>
+							<key>CurrentPowerState</key>
+							<integer>2</integer>
+							<key>DevicePowerState</key>
+							<integer>2</integer>
+							<key>DriverPowerState</key>
+							<integer>0</integer>
+							<key>MaxPowerState</key>
+							<integer>3</integer>
+						</dict>
 						<key>UsbConnector</key>
+						<integer>0</integer>
+						<key>device-properties</key>
+						<dict>
+							<key>acpi-device</key>
+							<string>IOACPIPlatformDevice is not serializable</string>
+							<key>acpi-path</key>
+							<string>IOACPIPlane:/_SB/PCI0@0/XHC@140000/RHUB@0/HS05@5</string>
+						</dict>
+						<key>kUSBHostPortPropertyOffset</key>
 						<integer>0</integer>
 						<key>port</key>
 						<data>
 						BQAAAA==
 						</data>
+						<key>port-statistics</key>
+						<dict>
+							<key>kPortStatAddressFailureCount</key>
+							<integer>0</integer>
+							<key>kPortStatConnectCount</key>
+							<integer>0</integer>
+							<key>kPortStatEOF2ViolationCount</key>
+							<integer>0</integer>
+							<key>kPortStatEOF2ViolationCurrentConnectCount</key>
+							<integer>0</integer>
+							<key>kPortStatEOF2ViolationDuringResetCount</key>
+							<integer>0</integer>
+							<key>kPortStatEOF2ViolationDuringResumeCount</key>
+							<integer>0</integer>
+							<key>kPortStatEOF2ViolationRecoveryDuringResetCount</key>
+							<integer>0</integer>
+							<key>kPortStatEnumerationFailureCount</key>
+							<integer>0</integer>
+							<key>kPortStatOverCurrentCount</key>
+							<integer>0</integer>
+							<key>kPortStatPowerStateTime</key>
+							<dict>
+								<key>kPowerStateOff</key>
+								<string>0ms (0%)</string>
+								<key>kPowerStateOn</key>
+								<string>231ms (0%)</string>
+								<key>kPowerStateSleep</key>
+								<string>0ms (0%)</string>
+								<key>kPowerStateSuspended</key>
+								<string>1469823ms (99%)</string>
+							</dict>
+							<key>kPortStatRemoteWakeCount</key>
+							<integer>0</integer>
+						</dict>
+						<key>port-status</key>
+						<integer>2</integer>
 					</dict>
 					<key>HS06</key>
 					<dict>
+						<key>IOGeneralInterest</key>
+						<string>IOCommand is not serializable</string>
+						<key>IOPowerManagement</key>
+						<dict>
+							<key>CapabilityFlags</key>
+							<integer>65536</integer>
+							<key>CurrentPowerState</key>
+							<integer>2</integer>
+							<key>DevicePowerState</key>
+							<integer>2</integer>
+							<key>DriverPowerState</key>
+							<integer>0</integer>
+							<key>MaxPowerState</key>
+							<integer>3</integer>
+						</dict>
 						<key>UsbConnector</key>
+						<integer>0</integer>
+						<key>device-properties</key>
+						<dict>
+							<key>acpi-device</key>
+							<string>IOACPIPlatformDevice is not serializable</string>
+							<key>acpi-path</key>
+							<string>IOACPIPlane:/_SB/PCI0@0/XHC@140000/RHUB@0/HS06@6</string>
+						</dict>
+						<key>kUSBHostPortPropertyOffset</key>
 						<integer>0</integer>
 						<key>port</key>
 						<data>
 						BgAAAA==
 						</data>
+						<key>port-statistics</key>
+						<dict>
+							<key>kPortStatAddressFailureCount</key>
+							<integer>0</integer>
+							<key>kPortStatConnectCount</key>
+							<integer>0</integer>
+							<key>kPortStatEOF2ViolationCount</key>
+							<integer>0</integer>
+							<key>kPortStatEOF2ViolationCurrentConnectCount</key>
+							<integer>0</integer>
+							<key>kPortStatEOF2ViolationDuringResetCount</key>
+							<integer>0</integer>
+							<key>kPortStatEOF2ViolationDuringResumeCount</key>
+							<integer>0</integer>
+							<key>kPortStatEOF2ViolationRecoveryDuringResetCount</key>
+							<integer>0</integer>
+							<key>kPortStatEnumerationFailureCount</key>
+							<integer>0</integer>
+							<key>kPortStatOverCurrentCount</key>
+							<integer>0</integer>
+							<key>kPortStatPowerStateTime</key>
+							<dict>
+								<key>kPowerStateOff</key>
+								<string>0ms (0%)</string>
+								<key>kPowerStateOn</key>
+								<string>267ms (0%)</string>
+								<key>kPowerStateSleep</key>
+								<string>0ms (0%)</string>
+								<key>kPowerStateSuspended</key>
+								<string>1469788ms (99%)</string>
+							</dict>
+							<key>kPortStatRemoteWakeCount</key>
+							<integer>0</integer>
+						</dict>
+						<key>port-status</key>
+						<integer>2</integer>
 					</dict>
 					<key>HS09</key>
 					<dict>
+						<key>IOGeneralInterest</key>
+						<string>IOCommand is not serializable</string>
+						<key>IOPowerManagement</key>
+						<dict>
+							<key>CapabilityFlags</key>
+							<integer>65536</integer>
+							<key>CurrentPowerState</key>
+							<integer>2</integer>
+							<key>DevicePowerState</key>
+							<integer>2</integer>
+							<key>DriverPowerState</key>
+							<integer>0</integer>
+							<key>MaxPowerState</key>
+							<integer>3</integer>
+						</dict>
 						<key>UsbConnector</key>
-						<integer>3</integer>
+						<integer>0</integer>
+						<key>device-properties</key>
+						<dict>
+							<key>acpi-device</key>
+							<string>IOACPIPlatformDevice is not serializable</string>
+							<key>acpi-path</key>
+							<string>IOACPIPlane:/_SB/PCI0@0/XHC@140000/RHUB@0/HS09@9</string>
+						</dict>
+						<key>kUSBHostPortPropertyOffset</key>
+						<integer>0</integer>
 						<key>port</key>
 						<data>
 						CQAAAA==
 						</data>
+						<key>port-statistics</key>
+						<dict>
+							<key>kPortStatAddressFailureCount</key>
+							<integer>0</integer>
+							<key>kPortStatConnectCount</key>
+							<integer>0</integer>
+							<key>kPortStatEOF2ViolationCount</key>
+							<integer>0</integer>
+							<key>kPortStatEOF2ViolationCurrentConnectCount</key>
+							<integer>0</integer>
+							<key>kPortStatEOF2ViolationDuringResetCount</key>
+							<integer>0</integer>
+							<key>kPortStatEOF2ViolationDuringResumeCount</key>
+							<integer>0</integer>
+							<key>kPortStatEOF2ViolationRecoveryDuringResetCount</key>
+							<integer>0</integer>
+							<key>kPortStatEnumerationFailureCount</key>
+							<integer>0</integer>
+							<key>kPortStatOverCurrentCount</key>
+							<integer>0</integer>
+							<key>kPortStatPowerStateTime</key>
+							<dict>
+								<key>kPowerStateOff</key>
+								<string>0ms (0%)</string>
+								<key>kPowerStateOn</key>
+								<string>0ms (0%)</string>
+								<key>kPowerStateSleep</key>
+								<string>0ms (0%)</string>
+								<key>kPowerStateSuspended</key>
+								<string>1470077ms (100%)</string>
+							</dict>
+							<key>kPortStatRemoteWakeCount</key>
+							<integer>0</integer>
+						</dict>
+						<key>port-status</key>
+						<integer>2</integer>
 					</dict>
 					<key>HS10</key>
 					<dict>
+						<key>IOGeneralInterest</key>
+						<string>IOCommand is not serializable</string>
+						<key>IOPowerManagement</key>
+						<dict>
+							<key>CapabilityFlags</key>
+							<integer>65536</integer>
+							<key>CurrentPowerState</key>
+							<integer>2</integer>
+							<key>DevicePowerState</key>
+							<integer>2</integer>
+							<key>DriverPowerState</key>
+							<integer>0</integer>
+							<key>MaxPowerState</key>
+							<integer>3</integer>
+						</dict>
 						<key>UsbConnector</key>
-						<integer>3</integer>
+						<integer>0</integer>
+						<key>device-properties</key>
+						<dict>
+							<key>acpi-device</key>
+							<string>IOACPIPlatformDevice is not serializable</string>
+							<key>acpi-path</key>
+							<string>IOACPIPlane:/_SB/PCI0@0/XHC@140000/RHUB@0/HS10@a</string>
+						</dict>
+						<key>kUSBHostPortPropertyOffset</key>
+						<integer>0</integer>
 						<key>port</key>
 						<data>
 						CgAAAA==
 						</data>
-					</dict>
-					<key>HS12</key>
-					<dict>
-						<key>UsbConnector</key>
-						<integer>3</integer>
-						<key>port</key>
-						<data>
-						DAAAAA==
-						</data>
-					</dict>
-					<key>HS13</key>
-					<dict>
-						<key>UsbConnector</key>
-						<integer>3</integer>
-						<key>port</key>
-						<data>
-						DQAAAA==
-						</data>
+						<key>port-statistics</key>
+						<dict>
+							<key>kPortStatAddressFailureCount</key>
+							<integer>0</integer>
+							<key>kPortStatConnectCount</key>
+							<integer>0</integer>
+							<key>kPortStatEOF2ViolationCount</key>
+							<integer>0</integer>
+							<key>kPortStatEOF2ViolationCurrentConnectCount</key>
+							<integer>0</integer>
+							<key>kPortStatEOF2ViolationDuringResetCount</key>
+							<integer>0</integer>
+							<key>kPortStatEOF2ViolationDuringResumeCount</key>
+							<integer>0</integer>
+							<key>kPortStatEOF2ViolationRecoveryDuringResetCount</key>
+							<integer>0</integer>
+							<key>kPortStatEnumerationFailureCount</key>
+							<integer>0</integer>
+							<key>kPortStatOverCurrentCount</key>
+							<integer>0</integer>
+							<key>kPortStatPowerStateTime</key>
+							<dict>
+								<key>kPowerStateOff</key>
+								<string>0ms (0%)</string>
+								<key>kPowerStateOn</key>
+								<string>0ms (0%)</string>
+								<key>kPowerStateSleep</key>
+								<string>0ms (0%)</string>
+								<key>kPowerStateSuspended</key>
+								<string>1470077ms (100%)</string>
+							</dict>
+							<key>kPortStatRemoteWakeCount</key>
+							<integer>0</integer>
+						</dict>
+						<key>port-status</key>
+						<integer>2</integer>
 					</dict>
 					<key>SS01</key>
 					<dict>
+						<key>IOGeneralInterest</key>
+						<string>IOCommand is not serializable</string>
+						<key>IOPowerManagement</key>
+						<dict>
+							<key>CapabilityFlags</key>
+							<integer>65536</integer>
+							<key>CurrentPowerState</key>
+							<integer>2</integer>
+							<key>DevicePowerState</key>
+							<integer>2</integer>
+							<key>DriverPowerState</key>
+							<integer>0</integer>
+							<key>MaxPowerState</key>
+							<integer>3</integer>
+						</dict>
 						<key>UsbConnector</key>
 						<integer>3</integer>
+						<key>device-properties</key>
+						<dict>
+							<key>acpi-device</key>
+							<string>IOACPIPlatformDevice is not serializable</string>
+							<key>acpi-path</key>
+							<string>IOACPIPlane:/_SB/PCI0@0/XHC@140000/RHUB@0/SS01@11</string>
+						</dict>
+						<key>kUSBHostPortPropertyOffset</key>
+						<integer>16</integer>
+						<key>link-error-count</key>
+						<integer>0</integer>
 						<key>port</key>
 						<data>
 						EQAAAA==
 						</data>
+						<key>port-statistics</key>
+						<dict>
+							<key>kPortStatAddressFailureCount</key>
+							<integer>0</integer>
+							<key>kPortStatConnectCount</key>
+							<integer>0</integer>
+							<key>kPortStatEOF2ViolationCount</key>
+							<integer>0</integer>
+							<key>kPortStatEOF2ViolationCurrentConnectCount</key>
+							<integer>0</integer>
+							<key>kPortStatEOF2ViolationDuringResetCount</key>
+							<integer>0</integer>
+							<key>kPortStatEOF2ViolationDuringResumeCount</key>
+							<integer>0</integer>
+							<key>kPortStatEOF2ViolationRecoveryDuringResetCount</key>
+							<integer>0</integer>
+							<key>kPortStatEnumerationFailureCount</key>
+							<integer>0</integer>
+							<key>kPortStatOverCurrentCount</key>
+							<integer>0</integer>
+							<key>kPortStatPowerStateTime</key>
+							<dict>
+								<key>kPowerStateOff</key>
+								<string>0ms (0%)</string>
+								<key>kPowerStateOn</key>
+								<string>253ms (0%)</string>
+								<key>kPowerStateSleep</key>
+								<string>0ms (0%)</string>
+								<key>kPowerStateSuspended</key>
+								<string>1469825ms (99%)</string>
+							</dict>
+							<key>kPortStatRemoteWakeCount</key>
+							<integer>0</integer>
+						</dict>
+						<key>port-status</key>
+						<integer>2</integer>
 					</dict>
 					<key>SS02</key>
 					<dict>
+						<key>IOGeneralInterest</key>
+						<string>IOCommand is not serializable</string>
+						<key>IOPowerManagement</key>
+						<dict>
+							<key>CapabilityFlags</key>
+							<integer>65536</integer>
+							<key>CurrentPowerState</key>
+							<integer>2</integer>
+							<key>DevicePowerState</key>
+							<integer>2</integer>
+							<key>DriverPowerState</key>
+							<integer>0</integer>
+							<key>MaxPowerState</key>
+							<integer>3</integer>
+						</dict>
 						<key>UsbConnector</key>
 						<integer>3</integer>
+						<key>device-properties</key>
+						<dict>
+							<key>acpi-device</key>
+							<string>IOACPIPlatformDevice is not serializable</string>
+							<key>acpi-path</key>
+							<string>IOACPIPlane:/_SB/PCI0@0/XHC@140000/RHUB@0/SS02@12</string>
+						</dict>
+						<key>kUSBHostPortPropertyOffset</key>
+						<integer>16</integer>
+						<key>link-error-count</key>
+						<integer>0</integer>
 						<key>port</key>
 						<data>
 						EgAAAA==
 						</data>
-					</dict>
-					<key>SS03</key>
-					<dict>
-						<key>UsbConnector</key>
-						<integer>3</integer>
-						<key>port</key>
-						<data>
-						EwAAAA==
-						</data>
+						<key>port-statistics</key>
+						<dict>
+							<key>kPortStatAddressFailureCount</key>
+							<integer>0</integer>
+							<key>kPortStatConnectCount</key>
+							<integer>0</integer>
+							<key>kPortStatEOF2ViolationCount</key>
+							<integer>0</integer>
+							<key>kPortStatEOF2ViolationCurrentConnectCount</key>
+							<integer>0</integer>
+							<key>kPortStatEOF2ViolationDuringResetCount</key>
+							<integer>0</integer>
+							<key>kPortStatEOF2ViolationDuringResumeCount</key>
+							<integer>0</integer>
+							<key>kPortStatEOF2ViolationRecoveryDuringResetCount</key>
+							<integer>0</integer>
+							<key>kPortStatEnumerationFailureCount</key>
+							<integer>0</integer>
+							<key>kPortStatOverCurrentCount</key>
+							<integer>0</integer>
+							<key>kPortStatPowerStateTime</key>
+							<dict>
+								<key>kPowerStateOff</key>
+								<string>0ms (0%)</string>
+								<key>kPowerStateOn</key>
+								<string>253ms (0%)</string>
+								<key>kPowerStateSleep</key>
+								<string>0ms (0%)</string>
+								<key>kPowerStateSuspended</key>
+								<string>1469824ms (99%)</string>
+							</dict>
+							<key>kPortStatRemoteWakeCount</key>
+							<integer>0</integer>
+						</dict>
+						<key>port-status</key>
+						<integer>2</integer>
 					</dict>
 					<key>SS04</key>
 					<dict>
+						<key>IOGeneralInterest</key>
+						<string>IOCommand is not serializable</string>
+						<key>IOPowerManagement</key>
+						<dict>
+							<key>CapabilityFlags</key>
+							<integer>65536</integer>
+							<key>CurrentPowerState</key>
+							<integer>2</integer>
+							<key>DevicePowerState</key>
+							<integer>2</integer>
+							<key>DriverPowerState</key>
+							<integer>0</integer>
+							<key>MaxPowerState</key>
+							<integer>3</integer>
+						</dict>
 						<key>UsbConnector</key>
 						<integer>3</integer>
+						<key>device-properties</key>
+						<dict>
+							<key>acpi-device</key>
+							<string>IOACPIPlatformDevice is not serializable</string>
+							<key>acpi-path</key>
+							<string>IOACPIPlane:/_SB/PCI0@0/XHC@140000/RHUB@0/SS04@14</string>
+						</dict>
+						<key>kUSBHostPortPropertyOffset</key>
+						<integer>16</integer>
+						<key>link-error-count</key>
+						<integer>0</integer>
 						<key>port</key>
 						<data>
 						FAAAAA==
 						</data>
+						<key>port-statistics</key>
+						<dict>
+							<key>kPortStatAddressFailureCount</key>
+							<integer>0</integer>
+							<key>kPortStatConnectCount</key>
+							<integer>1</integer>
+							<key>kPortStatEOF2ViolationCount</key>
+							<integer>0</integer>
+							<key>kPortStatEOF2ViolationCurrentConnectCount</key>
+							<integer>0</integer>
+							<key>kPortStatEOF2ViolationDuringResetCount</key>
+							<integer>0</integer>
+							<key>kPortStatEOF2ViolationDuringResumeCount</key>
+							<integer>0</integer>
+							<key>kPortStatEOF2ViolationRecoveryDuringResetCount</key>
+							<integer>0</integer>
+							<key>kPortStatEnumerationFailureCount</key>
+							<integer>0</integer>
+							<key>kPortStatOverCurrentCount</key>
+							<integer>0</integer>
+							<key>kPortStatPowerStateTime</key>
+							<dict>
+								<key>kPowerStateOff</key>
+								<string>0ms (0%)</string>
+								<key>kPowerStateOn</key>
+								<string>46609ms (3%)</string>
+								<key>kPowerStateSleep</key>
+								<string>0ms (0%)</string>
+								<key>kPowerStateSuspended</key>
+								<string>1423468ms (96%)</string>
+							</dict>
+							<key>kPortStatRemoteWakeCount</key>
+							<integer>0</integer>
+						</dict>
+						<key>port-status</key>
+						<integer>2</integer>
 					</dict>
 					<key>SS05</key>
 					<dict>
+						<key>IOGeneralInterest</key>
+						<string>IOCommand is not serializable</string>
+						<key>IOPowerManagement</key>
+						<dict>
+							<key>CapabilityFlags</key>
+							<integer>65536</integer>
+							<key>CurrentPowerState</key>
+							<integer>2</integer>
+							<key>DevicePowerState</key>
+							<integer>2</integer>
+							<key>DriverPowerState</key>
+							<integer>0</integer>
+							<key>MaxPowerState</key>
+							<integer>3</integer>
+						</dict>
 						<key>UsbConnector</key>
 						<integer>3</integer>
+						<key>device-properties</key>
+						<dict>
+							<key>acpi-device</key>
+							<string>IOACPIPlatformDevice is not serializable</string>
+							<key>acpi-path</key>
+							<string>IOACPIPlane:/_SB/PCI0@0/XHC@140000/RHUB@0/SS05@15</string>
+						</dict>
+						<key>kUSBHostPortPropertyOffset</key>
+						<integer>16</integer>
+						<key>link-error-count</key>
+						<integer>0</integer>
 						<key>port</key>
 						<data>
 						FQAAAA==
 						</data>
+						<key>port-statistics</key>
+						<dict>
+							<key>kPortStatAddressFailureCount</key>
+							<integer>0</integer>
+							<key>kPortStatConnectCount</key>
+							<integer>0</integer>
+							<key>kPortStatEOF2ViolationCount</key>
+							<integer>0</integer>
+							<key>kPortStatEOF2ViolationCurrentConnectCount</key>
+							<integer>0</integer>
+							<key>kPortStatEOF2ViolationDuringResetCount</key>
+							<integer>0</integer>
+							<key>kPortStatEOF2ViolationDuringResumeCount</key>
+							<integer>0</integer>
+							<key>kPortStatEOF2ViolationRecoveryDuringResetCount</key>
+							<integer>0</integer>
+							<key>kPortStatEnumerationFailureCount</key>
+							<integer>0</integer>
+							<key>kPortStatOverCurrentCount</key>
+							<integer>0</integer>
+							<key>kPortStatPowerStateTime</key>
+							<dict>
+								<key>kPowerStateOff</key>
+								<string>0ms (0%)</string>
+								<key>kPowerStateOn</key>
+								<string>253ms (0%)</string>
+								<key>kPowerStateSleep</key>
+								<string>0ms (0%)</string>
+								<key>kPowerStateSuspended</key>
+								<string>1469825ms (99%)</string>
+							</dict>
+							<key>kPortStatRemoteWakeCount</key>
+							<integer>0</integer>
+						</dict>
+						<key>port-status</key>
+						<integer>2</integer>
+					</dict>
+					<key>SS06</key>
+					<dict>
+						<key>IOGeneralInterest</key>
+						<string>IOCommand is not serializable</string>
+						<key>IOPowerManagement</key>
+						<dict>
+							<key>CapabilityFlags</key>
+							<integer>65536</integer>
+							<key>CurrentPowerState</key>
+							<integer>2</integer>
+							<key>DevicePowerState</key>
+							<integer>2</integer>
+							<key>DriverPowerState</key>
+							<integer>0</integer>
+							<key>MaxPowerState</key>
+							<integer>3</integer>
+						</dict>
+						<key>UsbConnector</key>
+						<integer>3</integer>
+						<key>device-properties</key>
+						<dict>
+							<key>acpi-device</key>
+							<string>IOACPIPlatformDevice is not serializable</string>
+							<key>acpi-path</key>
+							<string>IOACPIPlane:/_SB/PCI0@0/XHC@140000/RHUB@0/SS06@16</string>
+						</dict>
+						<key>kUSBHostPortPropertyOffset</key>
+						<integer>16</integer>
+						<key>link-error-count</key>
+						<integer>0</integer>
+						<key>port</key>
+						<data>
+						FgAAAA==
+						</data>
+						<key>port-statistics</key>
+						<dict>
+							<key>kPortStatAddressFailureCount</key>
+							<integer>0</integer>
+							<key>kPortStatConnectCount</key>
+							<integer>0</integer>
+							<key>kPortStatEOF2ViolationCount</key>
+							<integer>0</integer>
+							<key>kPortStatEOF2ViolationCurrentConnectCount</key>
+							<integer>0</integer>
+							<key>kPortStatEOF2ViolationDuringResetCount</key>
+							<integer>0</integer>
+							<key>kPortStatEOF2ViolationDuringResumeCount</key>
+							<integer>0</integer>
+							<key>kPortStatEOF2ViolationRecoveryDuringResetCount</key>
+							<integer>0</integer>
+							<key>kPortStatEnumerationFailureCount</key>
+							<integer>0</integer>
+							<key>kPortStatOverCurrentCount</key>
+							<integer>0</integer>
+							<key>kPortStatPowerStateTime</key>
+							<dict>
+								<key>kPowerStateOff</key>
+								<string>0ms (0%)</string>
+								<key>kPowerStateOn</key>
+								<string>288ms (0%)</string>
+								<key>kPowerStateSleep</key>
+								<string>0ms (0%)</string>
+								<key>kPowerStateSuspended</key>
+								<string>1469791ms (99%)</string>
+							</dict>
+							<key>kPortStatRemoteWakeCount</key>
+							<integer>0</integer>
+						</dict>
+						<key>port-status</key>
+						<integer>2</integer>
 					</dict>
 				</dict>
 			</dict>
 			<key>model</key>
-			<string>iMac18,3</string>
+			<string>iMac19,1</string>
 		</dict>
 	</dict>
 	<key>OSBundleRequired</key>
