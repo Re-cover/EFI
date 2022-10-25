@@ -28,6 +28,14 @@
 					<key>Enabled</key>
 					<true />
 					<key>Path</key>
+					<string>SSDT-DTGP.aml</string>
+				</dict>
+				<dict>
+					<key>Comment</key>
+					<string></string>
+					<key>Enabled</key>
+					<true />
+					<key>Path</key>
 					<string>SSDT-PLUG-_SB.PR00.aml</string>
 				</dict>
 				<dict>
@@ -180,6 +188,21 @@
 		<dict>
 			<key>Add</key>
 			<dict>
+				<key>PciRoot(0x0)/Pci(0x1,0x0)/Pci(0x0,0x0)/Pci(0x0,0x0)/Pci(0x0,0x0)</key>
+				<dict>
+					<key>@0,name</key>
+					<string>ATY,Python</string>
+					<key>@1,name</key>
+					<string>ATY,Python</string>
+					<key>@2,name</key>
+					<string>ATY,Python</string>
+					<key>@3,name</key>
+					<string>ATY,Python</string>
+					<key>ATY,EFIVersion</key>
+					<string>01.01.231</string>
+					<key>device_type</key>
+					<string>ATY,PythonParent</string>
+				</dict>
 				<key>PciRoot(0x0)/Pci(0x1F,0x3)</key>
 				<dict>
 					<key>AAPL,slot-name</key>
@@ -195,46 +218,16 @@
 				</dict>
 				<key>PciRoot(0x0)/Pci(0x2,0x0)</key>
 				<dict>
-					<key>AAPL,ig-platform-id</key>
-					<data>
-				BwCbPg==
-				</data>
-					<key>AAPL,slot-name</key>
-					<string>Internal@0,2,0</string>
 					<key>device-id</key>
-					<data>
-						mz4AAA==
-					</data>
+					<data>mz4AAA==</data>
 					<key>device_type</key>
 					<string>Display controller</string>
-					<key>enable-hdmi-dividers-fix</key>
-					<data>
-						AQAAAA==
-					</data>
-					<key>enable-hdmi20</key>
-					<data>
-			AQAAAA==
-			</data>
-					<key>framebuffer-con0-alldata</key>
-					<data>
-			AQEJAAAIAADHAwAA
-			</data>
-					<key>framebuffer-con0-enable</key>
-					<data>
-			AQAAAA==
-			</data>
-					<key>framebuffer-patch-enable</key>
-					<data>
-			AQAAAA==
-			</data>
-					<key>framebuffer-unifiedmem</key>
-					<data>
-			AAAAgA==
-			</data>
-					<key>hda-gfx</key>
-					<string>onboard-1</string>
+					<key>enable-metal</key>
+					<data>AQAAAA==</data>
 					<key>model</key>
 					<string>Intel UHD Graphics 630 (Desktop)</string>
+					<key>rps-control</key>
+					<data>AQAAAA==</data>
 				</dict>
 			</dict>
 			<key>Delete</key>
@@ -358,7 +351,7 @@
 					<key>BundlePath</key>
 					<string>AppleALC.kext</string>
 					<key>Comment</key>
-					<string>V1.7.5 | Audio patches</string>
+					<string>V1.7.6 | Audio patches</string>
 					<key>Enabled</key>
 					<true />
 					<key>ExecutablePath</key>
@@ -721,7 +714,7 @@
 				<key>PasswordSalt</key>
 				<data></data>
 				<key>ScanPolicy</key>
-				<integer>33496835</integer>
+				<integer>0</integer>
 				<key>SecureBootModel</key>
 				<string>Default</string>
 				<key>Vault</key>
@@ -785,7 +778,7 @@
 					<key>SystemAudioVolume</key>
 					<data>Rg==</data>
 					<key>boot-args</key>
-					<string>keepsyms=1 shikigva=80</string>
+					<string>keepsyms=1 shikigva=80 agdpmod=pikera</string>
 					<key>csr-active-config</key>
 					<data>7w8AAA==</data>
 					<key>prev-lang:kbd</key>
@@ -830,7 +823,7 @@
 				<key>MLB</key>
 				<string>C02029802J900001H</string>
 				<key>ProcessorType</key>
-				<integer>4105</integer>
+				<integer>0</integer>
 				<key>ROM</key>
 				<data>yHKZOVwz</data>
 				<key>SpoofVendor</key>
