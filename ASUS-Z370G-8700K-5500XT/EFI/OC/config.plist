@@ -126,7 +126,7 @@
 					<key>Count</key>
 					<integer>0</integer>
 					<key>Enabled</key>
-					<true />
+					<false />
 					<key>Find</key>
 					<data>SEVDSQ==</data>
 					<key>Limit</key>
@@ -156,7 +156,7 @@
 					<key>Count</key>
 					<integer>0</integer>
 					<key>Enabled</key>
-					<true />
+					<false />
 					<key>Find</key>
 					<data>R0ZYMA==</data>
 					<key>Limit</key>
@@ -186,7 +186,7 @@
 					<key>Count</key>
 					<integer>0</integer>
 					<key>Enabled</key>
-					<true />
+					<false />
 					<key>Find</key>
 					<data>UEVHUA==</data>
 					<key>Limit</key>
@@ -350,6 +350,33 @@
 					<string>PCI bridge</string>
 					<key>model</key>
 					<string>Xeon E3-1200 v5/E3-1500 v5/6th Gen Core Processor PCIe Controller (x8)</string>
+				</dict>
+				<key>PciRoot(0x0)/Pci(0x2,0x0)</key>
+				<dict>
+					<key>AAPL,slot-name</key>
+					<string>Internal@0,2,0</string>
+					<key>device_type</key>
+					<string>Display controller</string>
+					<key>model</key>
+					<string>Intel UHD Graphics 630 (Desktop)</string>
+					<key>AAPL,ig-platform-id</key>
+					<data>BwCbPg==</data>
+					<key>device-id</key>
+					<data>mz4AAA==</data>
+					<key>enable-hdmi-dividers-fix</key>
+					<data>AQAAAA==</data>
+					<key>enable-hdmi20</key>
+					<data>AQAAAA==</data>
+					<key>framebuffer-con0-alldata</key>
+					<data>AQEJAAAIAADHAwAA</data>
+					<key>framebuffer-con0-enable</key>
+					<data>AQAAAA==</data>
+					<key>framebuffer-patch-enable</key>
+					<data>AQAAAA==</data>
+					<key>framebuffer-unifiedmem</key>
+					<data>AAAAgA==</data>
+					<key>hda-gfx</key>
+					<string>onboard-1</string>
 				</dict>
 				<key>PciRoot(0x0)/Pci(0x14,0x0)</key>
 				<dict>
@@ -596,7 +623,7 @@
 					<key>Comment</key>
 					<string></string>
 					<key>Enabled</key>
-					<true />
+					<false />
 					<key>ExecutablePath</key>
 					<string></string>
 					<key>MaxKernel</key>
@@ -1287,6 +1314,8 @@
 					<false />
 					<key>Flavour</key>
 					<string>Auto</string>
+					<key>FullNvramAccess</key>
+					<false />
 					<key>Name</key>
 					<string>UEFI Shell</string>
 					<key>Path</key>
@@ -1307,6 +1336,8 @@
 					<false />
 					<key>Flavour</key>
 					<string>Auto</string>
+					<key>FullNvramAccess</key>
+					<false />
 					<key>Name</key>
 					<string>VerifyMsrE2</string>
 					<key>Path</key>
@@ -1327,6 +1358,8 @@
 					<false />
 					<key>Flavour</key>
 					<string>Auto</string>
+					<key>FullNvramAccess</key>
+					<false />
 					<key>Name</key>
 					<string>memcheck</string>
 					<key>Path</key>
@@ -1347,6 +1380,8 @@
 					<false />
 					<key>Flavour</key>
 					<string>Auto</string>
+					<key>FullNvramAccess</key>
+					<false />
 					<key>Name</key>
 					<string>Shutdown</string>
 					<key>Path</key>
@@ -1379,7 +1414,7 @@
 					<key>SystemAudioVolume</key>
 					<data>Rg==</data>
 					<key>boot-args</key>
-					<string>-alcbeta -lilubetaall debug=0x100 keepsyms=1 -wegbeta -vsmcbeta agdpmod=pikera</string>
+					<string>-alcbeta -lilubetaall debug=0x100 keepsyms=1 -wegbeta -vsmcbeta</string>
 					<key>csr-active-config</key>
 					<data>AAAAAA==</data>
 					<key>prev-lang:kbd</key>
@@ -1404,10 +1439,10 @@
 					<string>boot-args</string>
 				</array>
 			</dict>
-			<key>LegacyEnable</key>
-			<false />
 			<key>LegacyOverwrite</key>
 			<false />
+			<key>WriteFlash</key>
+			<true />
 			<key>LegacySchema</key>
 			<dict>
 				<key>7C436110-AB2A-4BBB-A880-FE41995C9F82</key>
@@ -1434,8 +1469,6 @@
 					<string>BootOrder</string>
 				</array>
 			</dict>
-			<key>WriteFlash</key>
-			<true />
 		</dict>
 		<key>PlatformInfo</key>
 		<dict>
@@ -1446,11 +1479,11 @@
 			<key>Generic</key>
 			<dict>
 				<key>AdviseFeatures</key>
-				<true />
+				<false />
 				<key>MaxBIOSVersion</key>
 				<false />
 				<key>MLB</key>
-				<string>C02814130GUJ0PGJA</string>
+				<string>C02952609GUKGQG8C</string>
 				<key>ProcessorType</key>
 				<integer>0</integer>
 				<key>ROM</key>
@@ -1460,11 +1493,11 @@
 				<key>SystemMemoryStatus</key>
 				<string>Auto</string>
 				<key>SystemProductName</key>
-				<string>iMac18,3</string>
+				<string>iMac19,2</string>
 				<key>SystemSerialNumber</key>
-				<string>C02WJRZNJ1GJ</string>
+				<string>C02ZWTYWJWDW</string>
 				<key>SystemUUID</key>
-				<string>80311808-7843-4D6F-B7D7-0D9C4EC6A765</string>
+				<string>FBDE4FA4-304C-435B-A940-EA90D312A881</string>
 			</dict>
 			<key>UpdateDataHub</key>
 			<true />
@@ -1553,6 +1586,8 @@
 					<string></string>
 					<key>Enabled</key>
 					<true />
+					<key>LoadEarly</key>
+					<false />
 					<key>Path</key>
 					<string>OpenHfsPlus.efi</string>
 				</dict>
@@ -1563,6 +1598,8 @@
 					<string></string>
 					<key>Enabled</key>
 					<true />
+					<key>LoadEarly</key>
+					<false />
 					<key>Path</key>
 					<string>OpenRuntime.efi</string>
 				</dict>
@@ -1573,6 +1610,8 @@
 					<string></string>
 					<key>Enabled</key>
 					<true />
+					<key>LoadEarly</key>
+					<false />
 					<key>Path</key>
 					<string>OpenCanopy.efi</string>
 				</dict>
@@ -1583,6 +1622,8 @@
 					<string></string>
 					<key>Enabled</key>
 					<true />
+					<key>LoadEarly</key>
+					<false />
 					<key>Path</key>
 					<string>UsbMouseDxe.efi</string>
 				</dict>
@@ -1593,6 +1634,8 @@
 					<string></string>
 					<key>Enabled</key>
 					<true />
+					<key>LoadEarly</key>
+					<false />
 					<key>Path</key>
 					<string>OpenUsbKbDxe.efi</string>
 				</dict>
@@ -1603,6 +1646,8 @@
 					<string></string>
 					<key>Enabled</key>
 					<true />
+					<key>LoadEarly</key>
+					<false />
 					<key>Path</key>
 					<string>OpenPartitionDxe.efi</string>
 				</dict>
@@ -1612,6 +1657,8 @@
 					<key>Comment</key>
 					<string></string>
 					<key>Enabled</key>
+					<false />
+					<key>LoadEarly</key>
 					<false />
 					<key>Path</key>
 					<string>ResetNvramEntry.efi</string>
@@ -1623,6 +1670,8 @@
 					<string></string>
 					<key>Enabled</key>
 					<false />
+					<key>LoadEarly</key>
+					<false />
 					<key>Path</key>
 					<string>ToggleSipEntry.efi</string>
 				</dict>
@@ -1632,6 +1681,8 @@
 					<key>Comment</key>
 					<string></string>
 					<key>Enabled</key>
+					<false />
+					<key>LoadEarly</key>
 					<false />
 					<key>Path</key>
 					<string>OpenLinuxBoot.efi</string>
@@ -1643,6 +1694,8 @@
 					<string></string>
 					<key>Enabled</key>
 					<false />
+					<key>LoadEarly</key>
+					<false />
 					<key>Path</key>
 					<string>Fat.efi</string>
 				</dict>
@@ -1653,6 +1706,8 @@
 					<string></string>
 					<key>Enabled</key>
 					<false />
+					<key>LoadEarly</key>
+					<false />
 					<key>Path</key>
 					<string>NTFS.efi</string>
 				</dict>
@@ -1662,6 +1717,8 @@
 					<key>Comment</key>
 					<string></string>
 					<key>Enabled</key>
+					<false />
+					<key>LoadEarly</key>
 					<false />
 					<key>Path</key>
 					<string>AudioDxe.efi</string>
