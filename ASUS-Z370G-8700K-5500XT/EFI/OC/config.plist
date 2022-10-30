@@ -377,6 +377,8 @@
 					<string>onboard-1</string>
 					<key>model</key>
 					<string>Intel UHD Graphics 630 (Desktop)</string>
+					<key>AAPL00,override-no-connect</key>
+					<data>AP///////wAebQd3CagCAAUeAQS1PCJ4nj4xrlBHrCcMUFQhCABxQIGAgcCpwNHAgQABAQEBTdAAoPBwPoAwIGUMWFQhAAAaKGgAoPBwPoAIkGUMWFQhAAAaAAAA/QA4PR6HOAAKICAgICAgAAAA/ABMRyBIRFIgNEsKICAgAbYCAxxxRJAEAwEjCQcHgwEAAOMFwADmBgUBYFVQAjqAGHE4LUBYLEUAWFQhAAAeVl4AoKCgKVAwIDUAWFQhAAAaAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAHg==</data>
 				</dict>
 				<key>PciRoot(0x0)/Pci(0x14,0x0)</key>
 				<dict>
