@@ -353,16 +353,14 @@
 				</dict>
 				<key>PciRoot(0x0)/Pci(0x2,0x0)</key>
 				<dict>
-					<key>AAPL,slot-name</key>
-					<string>Internal@0,2,0</string>
-					<key>device_type</key>
-					<string>Display controller</string>
-					<key>model</key>
-					<string>Intel UHD Graphics 630 (Desktop)</string>
 					<key>AAPL,ig-platform-id</key>
 					<data>BwCbPg==</data>
+					<key>AAPL,slot-name</key>
+					<string>Internal@0,2,0</string>
 					<key>device-id</key>
 					<data>mz4AAA==</data>
+					<key>device_type</key>
+					<string>Display controller</string>
 					<key>enable-hdmi-dividers-fix</key>
 					<data>AQAAAA==</data>
 					<key>enable-hdmi20</key>
@@ -377,6 +375,8 @@
 					<data>AAAAgA==</data>
 					<key>hda-gfx</key>
 					<string>onboard-1</string>
+					<key>model</key>
+					<string>Intel UHD Graphics 630 (Desktop)</string>
 				</dict>
 				<key>PciRoot(0x0)/Pci(0x14,0x0)</key>
 				<dict>
@@ -1697,6 +1697,18 @@
 					<key>LoadEarly</key>
 					<false />
 					<key>Path</key>
+					<string>AudioDxe.efi</string>
+				</dict>
+				<dict>
+					<key>Arguments</key>
+					<string></string>
+					<key>Comment</key>
+					<string></string>
+					<key>Enabled</key>
+					<false />
+					<key>LoadEarly</key>
+					<false />
+					<key>Path</key>
 					<string>Fat.efi</string>
 				</dict>
 				<dict>
@@ -1721,7 +1733,19 @@
 					<key>LoadEarly</key>
 					<false />
 					<key>Path</key>
-					<string>AudioDxe.efi</string>
+					<string>OpenNtfsDxe.efi</string>
+				</dict>
+				<dict>
+					<key>Arguments</key>
+					<string></string>
+					<key>Comment</key>
+					<string></string>
+					<key>Enabled</key>
+					<false />
+					<key>LoadEarly</key>
+					<false />
+					<key>Path</key>
+					<string>OpenVariableRuntimeDxe.efi</string>
 				</dict>
 			</array>
 			<key>Input</key>
