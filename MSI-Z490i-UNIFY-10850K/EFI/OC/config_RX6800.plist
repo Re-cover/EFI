@@ -419,7 +419,7 @@
 					<key>Comment</key>
 					<string>V2.3.0 | 14 Wi-Fi</string>
 					<key>Enabled</key>
-					<true />
+					<false />
 					<key>ExecutablePath</key>
 					<string>Contents/MacOS/AirportItlwm</string>
 					<key>MaxKernel</key>
@@ -455,7 +455,7 @@
 					<key>Comment</key>
 					<string>V2.3.0 | 12 Wi-Fi</string>
 					<key>Enabled</key>
-					<true />
+					<false />
 					<key>ExecutablePath</key>
 					<string>Contents/MacOS/AirportItlwm</string>
 					<key>MaxKernel</key>
