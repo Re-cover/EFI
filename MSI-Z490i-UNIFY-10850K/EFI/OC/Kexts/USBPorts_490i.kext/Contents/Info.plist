@@ -62,7 +62,7 @@
 						<string>HS01</string>
 						<key>port</key>
 						<data>
-						AQAAAA==
+						AwAAAA==
 						</data>
 					</dict>
 					<key>HS02</key>
@@ -75,33 +75,72 @@
 						<string>HS02</string>
 						<key>port</key>
 						<data>
-						AgAAAA==
+						BAAAAA==
+						</data>
+					</dict>
+					<key>HS03</key>
+					<dict>
+						<key>Comment</key>
+						<string>19pin 1 USB 2.0</string>
+						<key>UsbConnector</key>
+						<integer>0</integer>
+						<key>name</key>
+						<string>HS03</string>
+						<key>port</key>
+						<data>
+						BQAAAA==
+						</data>
+					</dict>
+					<key>HS04</key>
+					<dict>
+						<key>Comment</key>
+						<string>19pin 2 USB 2.0</string>
+						<key>UsbConnector</key>
+						<integer>0</integer>
+						<key>name</key>
+						<string>HS04</string>
+						<key>port</key>
+						<data>
+						BgAAAA==
 						</data>
 					</dict>
 					<key>HS05</key>
 					<dict>
 						<key>Comment</key>
-						<string>USB 2.0</string>
+						<string>Panel Black 4 USB 2.0</string>
 						<key>UsbConnector</key>
 						<integer>0</integer>
 						<key>name</key>
 						<string>HS05</string>
 						<key>port</key>
 						<data>
-						BQAAAA==
+						BwAAAA==
+						</data>
+					</dict>
+					<key>HS06</key>
+					<dict>
+						<key>Comment</key>
+						<string>Panel Black 3 USB 2.0</string>
+						<key>UsbConnector</key>
+						<integer>0</integer>
+						<key>name</key>
+						<string>HS06</string>
+						<key>port</key>
+						<data>
+						CAAAAA==
 						</data>
 					</dict>
 					<key>HS07</key>
 					<dict>
 						<key>Comment</key>
-						<string>F Blue 1 USB 2.0</string>
+						<string>9pin 1 USB 2.0</string>
 						<key>UsbConnector</key>
 						<integer>0</integer>
 						<key>name</key>
 						<string>HS07</string>
 						<key>port</key>
 						<data>
-						BwAAAA==
+						CQAAAA==
 						</data>
 					</dict>
 					<key>HS08</key>
@@ -120,50 +159,24 @@
 					<key>HS09</key>
 					<dict>
 						<key>Comment</key>
-						<string>Bluetooth Programming Interface</string>
+						<string>Human Interface Device</string>
 						<key>UsbConnector</key>
 						<integer>255</integer>
 						<key>name</key>
 						<string>HS09</string>
 						<key>port</key>
 						<data>
-						CQAAAA==
-						</data>
-					</dict>
-					<key>HS12</key>
-					<dict>
-						<key>Comment</key>
-						<string>water-cooling</string>
-						<key>UsbConnector</key>
-						<integer>255</integer>
-						<key>name</key>
-						<string>HS12</string>
-						<key>port</key>
-						<data>
-						DAAAAA==
-						</data>
-					</dict>
-					<key>HS13</key>
-					<dict>
-						<key>Comment</key>
-						<string>Human Interface Device</string>
-						<key>UsbConnector</key>
-						<integer>255</integer>
-						<key>name</key>
-						<string>HS13</string>
-						<key>port</key>
-						<data>
 						DQAAAA==
 						</data>
 					</dict>
-					<key>HS14</key>
+					<key>HS10</key>
 					<dict>
 						<key>Comment</key>
 						<string>Bluetooth Programming Interface</string>
 						<key>UsbConnector</key>
 						<integer>255</integer>
 						<key>name</key>
-						<string>HS14</string>
+						<string>HS10</string>
 						<key>port</key>
 						<data>
 						DgAAAA==
@@ -185,66 +198,53 @@
 					<key>SS02</key>
 					<dict>
 						<key>Comment</key>
-						<string>Panel Red 2 USB 3.0</string>
+						<string>Panel Blue 1 USB 3.0</string>
 						<key>UsbConnector</key>
 						<integer>3</integer>
 						<key>name</key>
 						<string>SS02</string>
 						<key>port</key>
 						<data>
-						EgAAAA==
-						</data>
-					</dict>
-					<key>SS03</key>
-					<dict>
-						<key>Comment</key>
-						<string>F c 1 USB 3.0</string>
-						<key>UsbConnector</key>
-						<integer>3</integer>
-						<key>name</key>
-						<string>SS03</string>
-						<key>port</key>
-						<data>
 						EwAAAA==
 						</data>
 					</dict>
-					<key>SS04</key>
-					<dict>
-						<key>Comment</key>
-						<string>F c 2 USB 3.0</string>
-						<key>UsbConnector</key>
-						<integer>3</integer>
-						<key>name</key>
-						<string>SS04</string>
-						<key>port</key>
-						<data>
-						FAAAAA==
-						</data>
-					</dict>
-					<key>SS05</key>
-					<dict>
-						<key>Comment</key>
-						<string>Panel Blue 1 USB 3.0</string>
-						<key>UsbConnector</key>
-						<integer>3</integer>
-						<key>name</key>
-						<string>SS05</string>
-						<key>port</key>
-						<data>
-						GQAAAA==
-						</data>
-					</dict>
-					<key>SS06</key>
+					<key>SS03</key>
 					<dict>
 						<key>Comment</key>
 						<string>Panel Blue 2 USB 3.0</string>
 						<key>UsbConnector</key>
 						<integer>3</integer>
 						<key>name</key>
+						<string>SS03</string>
+						<key>port</key>
+						<data>
+						FAAAAA==
+						</data>
+					</dict>
+					<key>SS04</key>
+					<dict>
+						<key>Comment</key>
+						<string>19pin 1 USB 3.0</string>
+						<key>UsbConnector</key>
+						<integer>3</integer>
+						<key>name</key>
+						<string>SS04</string>
+						<key>port</key>
+						<data>
+						FQAAAA==
+						</data>
+					</dict>
+					<key>SS05</key>
+					<dict>
+						<key>Comment</key>
+						<string>19pin 2 USB 3.0</string>
+						<key>UsbConnector</key>
+						<integer>3</integer>
+						<key>name</key>
 						<string>SS05</string>
 						<key>port</key>
 						<data>
-						GgAAAA==
+						FgAAAA==
 						</data>
 					</dict>
 				</dict>
@@ -292,7 +292,7 @@
 						<string>SSP1</string>
 						<key>port</key>
 						<data>
-						AQAAAA==
+						AwAAAA==
 						</data>
 					</dict>
 				</dict>
