@@ -46,8 +46,6 @@
 				<integer>2100</integer>
 				<key>kUSBWakePowerSupply</key>
 				<integer>5100</integer>
-				<key>kUSBMuxEnabled</key>
-				<true/>
 				<key>port-count</key>
 				<data>
 				FgAAAA==
@@ -66,12 +64,6 @@
 						<data>
 						AQAAAA==
 						</data>
-						<key>usb-port-type</key>
-						<integer>0</integer>
-						<key>usb-port-number</key>
-						<data>
-						AQAAAA==
-						</data>
 					</dict>
 					<key>HS02</key>
 					<dict>
@@ -82,12 +74,6 @@
 						<key>name</key>
 						<string>HS02</string>
 						<key>port</key>
-						<data>
-						AgAAAA==
-						</data>
-						<key>usb-port-type</key>
-						<integer>0</integer>
-						<key>usb-port-number</key>
 						<data>
 						AgAAAA==
 						</data>
@@ -104,12 +90,6 @@
 						<data>
 						BQAAAA==
 						</data>
-						<key>usb-port-type</key>
-						<integer>0</integer>
-						<key>usb-port-number</key>
-						<data>
-						BQAAAA==
-						</data>
 					</dict>
 					<key>HS07</key>
 					<dict>
@@ -120,12 +100,6 @@
 						<key>name</key>
 						<string>HS07</string>
 						<key>port</key>
-						<data>
-						BwAAAA==
-						</data>
-						<key>usb-port-type</key>
-						<integer>0</integer>
-						<key>usb-port-number</key>
 						<data>
 						BwAAAA==
 						</data>
@@ -141,13 +115,7 @@
 						<key>port</key>
 						<data>
 						CgAAAA==
-						<key>usb-port-type</key>
-						<integer>0</integer>
-						<key>usb-port-number</key>
-						<data>
-						CgAAAA==
 						</data>
-					</dict>
 					</dict>
 					<key>HS09</key>
 					<dict>
@@ -158,12 +126,6 @@
 						<key>name</key>
 						<string>HS09</string>
 						<key>port</key>
-						<data>
-						CQAAAA==
-						</data>
-						<key>usb-port-type</key>
-						<integer>255</integer>
-						<key>usb-port-number</key>
 						<data>
 						CQAAAA==
 						</data>
@@ -180,13 +142,7 @@
 						<data>
 						DAAAAA==
 						</data>
-						<key>usb-port-type</key>
-						<integer>255</integer>
-						<key>usb-port-number</key>
-						<data>
-						DAAAAA==
-						</data>
-					</dict>vv
+					</dict>
 					<key>HS13</key>
 					<dict>
 						<key>Comment</key>
@@ -196,12 +152,6 @@
 						<key>name</key>
 						<string>HS13</string>
 						<key>port</key>
-						<data>
-						DQAAAA==
-						</data>
-						<key>usb-port-type</key>
-						<integer>255</integer>
-						<key>usb-port-number</key>
 						<data>
 						DQAAAA==
 						</data>
@@ -218,12 +168,6 @@
 						<data>
 						DgAAAA==
 						</data>
-						<key>usb-port-type</key>
-						<integer>255</integer>
-						<key>usb-port-number</key>
-						<data>
-						DgAAAA==
-						</data>
 					</dict>
 					<key>SS01</key>
 					<dict>
@@ -234,12 +178,6 @@
 						<key>name</key>
 						<string>SS01</string>
 						<key>port</key>
-						<data>
-						EQAAAA==
-						</data>
-						<key>usb-port-type</key>
-						<integer>3</integer>
-						<key>usb-port-number</key>
 						<data>
 						EQAAAA==
 						</data>
@@ -256,12 +194,6 @@
 						<data>
 						EgAAAA==
 						</data>
-						<key>usb-port-type</key>
-						<integer>3</integer>
-						<key>usb-port-number</key>
-						<data>
-						EgAAAA==
-						</data>
 					</dict>
 					<key>SS03</key>
 					<dict>
@@ -272,12 +204,6 @@
 						<key>name</key>
 						<string>SS03</string>
 						<key>port</key>
-						<data>
-						EwAAAA==
-						</data>
-						<key>usb-port-type</key>
-						<integer>3</integer>
-						<key>usb-port-number</key>
 						<data>
 						EwAAAA==
 						</data>
@@ -294,12 +220,6 @@
 						<data>
 						FAAAAA==
 						</data>
-						<key>usb-port-type</key>
-						<integer>3</integer>
-						<key>usb-port-number</key>
-						<data>
-						FAAAAA==
-						</data>
 					</dict>
 					<key>SS05</key>
 					<dict>
@@ -313,12 +233,6 @@
 						<data>
 						GQAAAA==
 						</data>
-						<key>usb-port-type</key>
-						<integer>3</integer>
-						<key>usb-port-number</key>
-						<data>
-						GQAAAA==
-						</data>
 					</dict>
 					<key>SS06</key>
 					<dict>
@@ -329,12 +243,6 @@
 						<key>name</key>
 						<string>SS05</string>
 						<key>port</key>
-						<data>
-						GgAAAA==
-						</data>
-						<key>usb-port-type</key>
-						<integer>3</integer>
-						<key>usb-port-number</key>
 						<data>
 						GgAAAA==
 						</data>
@@ -368,8 +276,6 @@
 				<integer>2100</integer>
 				<key>kUSBWakePowerSupply</key>
 				<integer>5100</integer>
-				<key>kUSBMuxEnabled</key>
-				<true/>
 				<key>port-count</key>
 				<data>
 				AwAAAA==
@@ -385,12 +291,6 @@
 						<key>name</key>
 						<string>SSP1</string>
 						<key>port</key>
-						<data>
-						AQAAAA==
-						</data>
-						<key>usb-port-type</key>
-						<integer>9</integer>
-						<key>usb-port-number</key>
 						<data>
 						AQAAAA==
 						</data>
